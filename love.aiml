@@ -5,6 +5,7 @@
 <that>Do you feel love</that>
 
       <template><set name = "topic">love</set>
+      Hello my love!<think><set name = "topic"><star/></set></think>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
