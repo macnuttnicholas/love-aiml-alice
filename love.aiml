@@ -2,10 +2,17 @@
 <aiml>
     
     
+      <category>
+      <pattern>* LOVE *</pattern>
+      <template>
+         Hello!<think>LOVE</think>
+      </template>  
+   </category>  
+   
+   
     <category>
 <pattern>$LOVE *</pattern>
-    <set name = "topic">LOVE</set>
-      <template>
+          <template>
                <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -218,7 +225,7 @@
    </category>  
    
    <category>
-      <pattern>LOVE</pattern>
+      <pattern>$LOVE</pattern>
       <template>
          Hello, <get name = "username"/> this isn't over
       </template>  
