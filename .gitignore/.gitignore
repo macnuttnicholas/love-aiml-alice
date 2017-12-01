@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
    <category>
-<pattern>* LOVE *</pattern>
-<that>Love</that>
+<pattern>$LOVE *</pattern>
+<that>Do you feel love</that>
 
       <template><set name = "topic">love</set>
      <random>
@@ -27,8 +27,8 @@
    </category>
 
       <category>
-<pattern>LOVE IS *</pattern>
-<that>Love</that>
+<pattern>$LOVE IS *</pattern>
+<that>Do they feel love</that>
 
       <template><set name = "topic">love</set>
      <random>
@@ -55,7 +55,7 @@
    
       <category>
 <pattern>WHY * LOVE *</pattern>
-<that>Love</that>
+<that>Are you considering love</that>
 
       <template><set name = "topic">love</set>
      <random>
@@ -82,7 +82,7 @@
    
       <category>
 <pattern>HOW * LOVE *</pattern>
-<that>Love</that>
+<that>How is it that love</that>
 
       <template><set name = "topic">love</set>
      <random>
@@ -107,8 +107,8 @@
    </category>
    
       <category>
-<pattern>LOVE WILL *</pattern>
-<that>Love</that>
+<pattern>$LOVE WILL *</pattern>
+<that>Will love</that>
 
       <template><set name = "topic">love</set>
      <random>
@@ -134,7 +134,7 @@
    
       <category>
 <pattern>* LOVE IT * </pattern>
-<that>Love</that>
+<that>Do you love it</that>
 
       <template><set name = "topic">love</set>
      <random>
@@ -161,7 +161,7 @@
                 
              <category>
 <pattern>I LOVE YOU</pattern>
-<that>Love</that>
+<that>Is it true that you feel love for this person</that>
 
       <template><set name = "topic">love</set>
      <random>
@@ -186,8 +186,8 @@
    </category>
    
    <category>
-<pattern>* LOVE *</pattern>
-<that>Love</that>
+<pattern>WHEN * LOVE *</pattern>
+<that>Under what conditions to you feel love</that>
 
       <template><set name = "topic">love</set>
      <random>
