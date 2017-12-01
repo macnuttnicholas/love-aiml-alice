@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+   <category>
+<pattern>$LOVE *</pattern>
+<that>Do you feel love</that>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+
+      <category>
+<pattern>$LOVE IS *</pattern>
+<that>Do they feel love</that>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+   
+   
+      <category>
+<pattern>WHY * LOVE *</pattern>
+<that>Are you considering love</that>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+   
+   
+      <category>
+<pattern>HOW * LOVE *</pattern>
+<that>How is it that love</that>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+   
+      <category>
+<pattern>$LOVE WILL *</pattern>
+<that>Will love</that>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+   
+      <category>
+<pattern>* LOVE IT * </pattern>
+<that>Do you love it</that>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+   
+                
+             <category>
+<pattern>I LOVE YOU</pattern>
+<that>Is it true that you feel love for this person</that>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+   
+   <category>
+<pattern>WHEN * LOVE *</pattern>
+<that>Under what conditions to you feel love</that>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+  <category>
+      <pattern>* love *</pattern>
+      <template>
+         Hello!<think><set name = "username"> <star/></set></think>
+      </template>  
+   </category>  
+   
+   <category>
+      <pattern>love</pattern>
+      <template>
+         Hi <get name = "username"/> this isn't over
+      </template>  
+   </category> 
+</aiml>
