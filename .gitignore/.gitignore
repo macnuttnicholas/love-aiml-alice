@@ -1,0 +1,40 @@
+<aiml>
+   <category>
+<pattern>* LOVE *</pattern>
+<that>Love</that>
+
+      <template><set name = "topic"> love </set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+          
+   </category>
+
+  <category>
+      <pattern>* love *</pattern>
+      <template>
+         Hello!<think><set name = "username"> <star/></set></think>
+      </template>  
+   </category>  
+   
+   <category>
+      <pattern>love</pattern>
+      <template>
+         Hi <get name = "username"/> this isn't over
+      </template>  
+   </category> 
+</aiml>
