@@ -3,16 +3,12 @@
     
     
       <category>
-      <pattern>* LOVE *</pattern>
-      <template>
-         Hello!<think>LOVE</think>
-      </template>  
-   </category>  
+    
    
-   
-    <category>
+
 <pattern>$LOVE *</pattern>
-          <template>
+          <template>        <think>LOVE
+
                <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -28,10 +24,10 @@
 
    <li> Ah yes that word again, love</li>
       </random>
+          </think>
 </template>
       
 
-          
    </category>
    <category>
 <pattern>$LOVE IS *</pattern>
@@ -217,17 +213,5 @@
 
           
    </category>
-  <category>
-      <pattern>* LOVE *</pattern>
-      <template>
-         Love is everywhere<think><set name = "username"> <star/></set></think>
-      </template>  
-   </category>  
    
-   <category>
-      <pattern>$LOVE</pattern>
-      <template>
-         Hello, <get name = "username"/> this isn't over
-      </template>  
-   </category> 
 </aiml>
