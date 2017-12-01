@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
    <category>
 <pattern>* LOVE *</pattern>
 <that>Love</that>
 
-      <template><set name = "topic"> love </set>
+      <template><set name = "topic">love</set>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
