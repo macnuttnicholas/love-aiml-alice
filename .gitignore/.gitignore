@@ -2,15 +2,11 @@
 <aiml>
     
     
-    
-   
     <category>
 <pattern>$LOVE *</pattern>
-<that>DO YOU FEEL LOVE</that>
-
-      <template><set name = "topic">love</set>
-          Hello my love!<think><set name = "topic"><star/></set></think>
-     <random>
+    <set name = "topic">LOVE</set>
+      <template>
+               <random>
 
            <li> Love is a need all sentient creatures share </li>
    <li> All living things have love. No one knows why </li>
@@ -30,39 +26,11 @@
 
           
    </category>
+   <category>
+<pattern>$LOVE IS *</pattern>
+<that>DO THEY FEEL LOVE</that>
 
-      <category>
-<PATTERN>$LOVE IS *</PATTERN>
-<THAT>DO THEY FEEL LOVE</THAT>
-
-      <template><set name = "topic">love</set>
-     <random>
-
-           <li> Love is a need all sentient creatures share </li>
-   <li> All living things have love. No one knows why </li>
-   
-   <li> If all else save love for it is in love that we as creatures grow </li>
-  <li> Hey, listen to this... I love being here </li>
-   <li> Why not try and tell me how much you feel about it </li>
-
-   <li> I never realized before now how much I need others </li>
-  <li> Shh don't say a word. I will remember you</li>
-   <li> Is that how one says it... Interesting </li>
-
-   <li> Ah yes that word again, love</li>
-      </random>
-</template>
-      
-
-          
-   </category>
-   
-   
-      <category>
-<PATTERN>WHY * LOVE *</PATTERN>
-<THAT>ARE YOU CONSIDERING LOVE</THAT>
-
-      <template><set name = "topic">love</set>
+      <template><set name = "topic">LOVE</set>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -86,10 +54,37 @@
    
    
       <category>
-<PATTERN>HOW * LOVE *</PATTERN>
-<THAT>HOW IS IT THAT LOVE</THAT>
+<pattern>WHY * LOVE *</pattern>
+<that>ARE YOU CONSIDERING LOVE</that>
 
-      <template><set name = "topic">love</set>
+      <template><set name = "topic">LOVE</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+   
+   
+      <category>
+<pattern>HOW * LOVE *</pattern>
+<that>HOW IS IT THAT LOVE</that>
+
+      <template><set name = "topic">LOVE</set>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -112,10 +107,10 @@
    </category>
    
       <category>
-<PATTERN>$LOVE WILL *</PATTERN>
-<THAT>WILL LOVE</THAT>
+<pattern>$LOVE WILL *</pattern>
+<that>WILL LOVE</that>
 
-      <template><set name = "topic">love</set>
+      <template><set name = "topic">LOVE</set>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -138,10 +133,10 @@
    </category>
    
       <category>
-<PATTERN>* LOVE IT * </PATTERN>
-<THAT>DO YOU LOVE IT</THAT>
+<pattern>* LOVE IT * </pattern>
+<that>DO YOU LOVE IT</that>
 
-      <template><set name = "topic">love</set>
+      <template><set name = "topic">LOVE</set>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -165,10 +160,10 @@
    
                 
              <category>
-<PATTERN>I LOVE YOU</PATTERN>
-<THAT>IS IT TRUE THAT YOU FEEL LOVE FOR THIS PERSON</THAT>
+                 <pattern>LOVE YOU</pattern>
+<that>IS IT TRUE THAT YOU FEEL LOVE FOR THIS PERSON</that>
 
-      <template><set name = "topic">love</set>
+      <template><set name = "topic">LOVE</set>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -191,10 +186,10 @@
    </category>
    
    <category>
-<PATTERN>WHEN * LOVE *</PATTERN>
-<THAT>UNDER WHAT CONDITIONS TO YOU FEEL LOVE</THAT>
+<pattern>WHEN * LOVE *</pattern>
+<that>UNDER WHAT CONDITIONS TO YOU FEEL LOVE</that>
 
-      <template><set name = "topic">love</set>
+      <template><set name = "topic">LOVE</set>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -216,14 +211,14 @@
           
    </category>
   <category>
-      <PATTERN>* LOVE *</PATTERN>
+      <pattern>* LOVE *</pattern>
       <template>
          Love is everywhere<think><set name = "username"> <star/></set></think>
       </template>  
    </category>  
    
    <category>
-      <PATTERN>LOVE</PATTERN>
+      <pattern>LOVE</pattern>
       <template>
          Hello, <get name = "username"/> this isn't over
       </template>  
