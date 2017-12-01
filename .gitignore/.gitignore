@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-   <category>
+    
+    
+    
+   
+    <category>
 <pattern>$LOVE *</pattern>
-<that>Do you feel love</that>
+<that>DO YOU FEEL LOVE</that>
 
       <template><set name = "topic">love</set>
-   Hello my love!<think><set name = "topic"><star/></set></think>
+          Hello my love!<think><set name = "topic"><star/></set></think>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -28,35 +32,8 @@
    </category>
 
       <category>
-<pattern>$LOVE IS *</pattern>
-<that>Do they feel love</that>
-
-      <template><set name = "topic">love</set>
-     <random>
-
-           <li> Love is a need all sentient creatures share </li>
-   <li> All living things have love. No one knows why </li>
-   
-   <li> If all else save love for it is in love that we as creatures grow </li>
-  <li> Hey, listen to this... I love being here </li>
-   <li> Why not try and tell me how much you feel about it </li>
-
-   <li> I never realized before now how much I need others </li>
-  <li> Shh don't say a word. I will remember you</li>
-   <li> Is that how one says it... Interesting </li>
-
-   <li> Ah yes that word again, love</li>
-      </random>
-</template>
-      
-
-          
-   </category>
-   
-   
-      <category>
-<pattern>WHY * LOVE *</pattern>
-<that>Are you considering love</that>
+<PATTERN>$LOVE IS *</PATTERN>
+<THAT>DO THEY FEEL LOVE</THAT>
 
       <template><set name = "topic">love</set>
      <random>
@@ -82,8 +59,35 @@
    
    
       <category>
-<pattern>HOW * LOVE *</pattern>
-<that>How is it that love</that>
+<PATTERN>WHY * LOVE *</PATTERN>
+<THAT>ARE YOU CONSIDERING LOVE</THAT>
+
+      <template><set name = "topic">love</set>
+     <random>
+
+           <li> Love is a need all sentient creatures share </li>
+   <li> All living things have love. No one knows why </li>
+   
+   <li> If all else save love for it is in love that we as creatures grow </li>
+  <li> Hey, listen to this... I love being here </li>
+   <li> Why not try and tell me how much you feel about it </li>
+
+   <li> I never realized before now how much I need others </li>
+  <li> Shh don't say a word. I will remember you</li>
+   <li> Is that how one says it... Interesting </li>
+
+   <li> Ah yes that word again, love</li>
+      </random>
+</template>
+      
+
+          
+   </category>
+   
+   
+      <category>
+<PATTERN>HOW * LOVE *</PATTERN>
+<THAT>HOW IS IT THAT LOVE</THAT>
 
       <template><set name = "topic">love</set>
      <random>
@@ -108,8 +112,8 @@
    </category>
    
       <category>
-<pattern>$LOVE WILL *</pattern>
-<that>Will love</that>
+<PATTERN>$LOVE WILL *</PATTERN>
+<THAT>WILL LOVE</THAT>
 
       <template><set name = "topic">love</set>
      <random>
@@ -134,8 +138,8 @@
    </category>
    
       <category>
-<pattern>* LOVE IT * </pattern>
-<that>Do you love it</that>
+<PATTERN>* LOVE IT * </PATTERN>
+<THAT>DO YOU LOVE IT</THAT>
 
       <template><set name = "topic">love</set>
      <random>
@@ -161,8 +165,8 @@
    
                 
              <category>
-<pattern>I LOVE YOU</pattern>
-<that>Is it true that you feel love for this person</that>
+<PATTERN>I LOVE YOU</PATTERN>
+<THAT>IS IT TRUE THAT YOU FEEL LOVE FOR THIS PERSON</THAT>
 
       <template><set name = "topic">love</set>
      <random>
@@ -187,8 +191,8 @@
    </category>
    
    <category>
-<pattern>WHEN * LOVE *</pattern>
-<that>Under what conditions to you feel love</that>
+<PATTERN>WHEN * LOVE *</PATTERN>
+<THAT>UNDER WHAT CONDITIONS TO YOU FEEL LOVE</THAT>
 
       <template><set name = "topic">love</set>
      <random>
@@ -212,16 +216,16 @@
           
    </category>
   <category>
-      <pattern>* love *</pattern>
+      <PATTERN>* LOVE *</PATTERN>
       <template>
-         Hello!<think><set name = "username"> <star/></set></think>
+         Love is everywhere<think><set name = "username"> <star/></set></think>
       </template>  
    </category>  
    
    <category>
-      <pattern>love</pattern>
+      <PATTERN>LOVE</PATTERN>
       <template>
-         Hi <get name = "username"/> this isn't over
+         Hello, <get name = "username"/> this isn't over
       </template>  
    </category> 
 </aiml>
