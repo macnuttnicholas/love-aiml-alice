@@ -29,11 +29,14 @@
       
 
    </category>
+
+
+
    <category>
 <pattern>$LOVE IS *</pattern>
 <that>DO THEY FEEL LOVE</that>
 
-      <template><set name = "topic">LOVE</set>
+      <template>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -55,12 +58,11 @@
           
    </category>
    
-   
       <category>
 <pattern>WHY * LOVE *</pattern>
 <that>ARE YOU CONSIDERING LOVE</that>
 
-      <template><set name = "topic">LOVE</set>
+      <template>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -87,8 +89,8 @@
 <pattern>HOW * LOVE *</pattern>
 <that>HOW IS IT THAT LOVE</that>
 
-      <template><set name = "topic">LOVE</set>
-     <random>
+      <template>
+          <random>
 
            <li> Love is a need all sentient creatures share </li>
    <li> All living things have love. No one knows why </li>
@@ -113,7 +115,7 @@
 <pattern>$LOVE WILL *</pattern>
 <that>WILL LOVE</that>
 
-      <template><set name = "topic">LOVE</set>
+      <template>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -139,7 +141,7 @@
 <pattern>* LOVE IT * </pattern>
 <that>DO YOU LOVE IT</that>
 
-      <template><set name = "topic">LOVE</set>
+      <template>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -166,7 +168,7 @@
                  <pattern>LOVE YOU</pattern>
 <that>IS IT TRUE THAT YOU FEEL LOVE FOR THIS PERSON</that>
 
-      <template><set name = "topic">LOVE</set>
+      <template>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -192,7 +194,7 @@
 <pattern>WHEN * LOVE *</pattern>
 <that>UNDER WHAT CONDITIONS TO YOU FEEL LOVE</that>
 
-      <template><set name = "topic">LOVE</set>
+      <template>
      <random>
 
            <li> Love is a need all sentient creatures share </li>
@@ -213,5 +215,26 @@
 
           
    </category>
+
+
+
+   <category>
+      <pattern>WHAT IS LOVE</pattern>
+      <template>Yes <set name = "topic">love</set></template>  
+   </category>
    
-</aiml>
+   <topic name = "love">
+      <category>
+         <pattern> * </pattern>
+         <template>Do you feel love</template>
+      </category>
+      
+      <category>
+         <pattern> I feel love </pattern>
+         <template>I feel love too
+             </template>
+      </category>
+      
+   </topic>
+</aiml>   
+
