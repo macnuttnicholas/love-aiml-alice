@@ -320,11 +320,12 @@
       
 
    </category>
-         <category>
+
+            <category>
     
    
 
-<pattern>* LOVE</pattern>
+<pattern>* LOVING</pattern>
           <template>        
 
                <random>
@@ -341,15 +342,14 @@
    <li> Is that how one says it... Interesting </li>
 
    <li> Ah yes that word again, love</li>
-      </random>
-          </think>
-</template>
+      </random></template>
       
 
    </category>
-   
-   
-   <pattern>* LOVED</pattern>
+
+     <category>
+
+<pattern>* LOVING *</pattern>
           <template>        
 
                <random>
@@ -366,34 +366,10 @@
    <li> Is that how one says it... Interesting </li>
 
    <li> Ah yes that word again, love</li>
-      </random>
-          </think>
-</template>
+      </random></think></template>
       
 
    </category>
-   <pattern>* LOVABLE</pattern>
-          <template>        
 
-               <random>
-
-           <li> Love is a need all sentient creatures share </li>
-   <li> All living things have love. No one knows why </li>
-   
-   <li> If all else save love for it is in love that we as creatures grow </li>
-  <li> Hey, listen to this... I love being here </li>
-   <li> Why not try and tell me how much you feel about it </li>
-
-   <li> I never realized before now how much I need others </li>
-  <li> Shh don't say a word. I will remember you</li>
-   <li> Is that how one says it... Interesting </li>
-
-   <li> Ah yes that word again, love</li>
-      </random>
-          </think>
-</template>
-      
-
-   </category>
 </aiml>   
 
